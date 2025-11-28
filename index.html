@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fonoaudiología Infantil - Nombre Estudiante</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <a class="brand" href="#home">
+          <span class="brand-icon">🎯</span>
+          FonoInfantil
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">¿Qué es?</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#resources">Recursos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección inicio -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="hero-image-container">
+            <img
+              src="/img/descarga.jpeg"
+              alt="Niño recibiendo terapia de lenguaje"
+              class="hero-img"
+            />
+            <div class="hero-overlay"></div>
+          </div>
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Fonoaudiología en niños e Introduccion
+            </h1>
+            <p class="hero-desc">
+              Intervenciones tempranas y acompañamiento familiar para potenciar
+              el lenguaje, la comunicación y el desarrollo auditivo en la
+              primera infancia.
+            </p>
+            <div class="hero-actions">
+              <a class="cta primary" href="#services">Ver servicios</a>
+              <a class="cta secondary" href="#about">Saber más</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección ¿Qué es? -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>¿Qué es la fonoaudiología infantil?</h2>
+            <p>
+              La fonoaudiología es la disciplina que evalúa y trata las
+              dificultades en la comunicación humana. En la infancia se enfoca
+              en el desarrollo del habla, lenguaje, deglución y funciones
+              auditivas, con un enfoque integral que incluye a la familia y la
+              escuela.
+            </p>
+          </div>
+
+          <article class="cards">
+            <div class="card card-1">
+              <div class="card-icon">🔍</div>
+              <h3>Evaluación temprana</h3>
+              <p>
+                Detección de factores de riesgo y diseño de un plan
+                individualizado.
+              </p>
+            </div>
+            <div class="card card-2">
+              <div class="card-icon">🎮</div>
+              <h3>Intervención lúdica</h3>
+              <p>
+                Técnicas basadas en el juego para motivar el aprendizaje
+                comunicativo.
+              </p>
+            </div>
+            <div class="card card-3">
+              <div class="card-icon">👨‍👩‍👧‍👦</div>
+              <h3>Trabajo con familia</h3>
+              <p>
+                Empoderamiento de padres y cuidadores para continuar la terapia
+                en casa.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Sección servicios (varias "ventanas" → subsecciones navegables) -->
+      <section id="services" class="section pale">
+        <div class="container">
+          <div class="section-header">
+            <h2>Servicios</h2>
+            <p>
+              Ofrecemos diferentes modalidades de intervención adaptadas a las
+              necesidades específicas de cada niño.
+            </p>
+          </div>
+
+          <nav class="subnav">
+            <a href="#eval" class="subnav-link active">Evaluación</a>
+            <a href="#therapy" class="subnav-link">Terapia</a>
+            <a href="#tele" class="subnav-link">Telefonoaudiología</a>
+          </nav>
+
+          <div class="services-content">
+            <div id="eval" class="service active">
+              <div class="service-icon">📊</div>
+              <h3>Evaluación diagnóstica</h3>
+              <p>
+                Anamnesis, pruebas estandarizadas y observación directa para
+                identificar necesidades específicas y establecer objetivos
+                terapéuticos personalizados.
+              </p>
+              <ul class="service-features">
+                <li>Evaluación integral del lenguaje</li>
+                <li>Análisis de articulación y fonología</li>
+                <li>Valoración auditiva y procesamiento</li>
+              </ul>
+            </div>
+
+            <div id="therapy" class="service">
+              <div class="service-icon">🧩</div>
+              <h3>Terapia individual y grupal</h3>
+              <p>
+                Sesiones estructuradas con objetivos medibles y estrategias
+                didácticas lúdicas adaptadas al estilo de aprendizaje de cada
+                niño.
+              </p>
+              <ul class="service-features">
+                <li>Sesiones individuales personalizadas</li>
+                <li>Terapia en pequeños grupos</li>
+                <li>Materiales visuales y manipulativos</li>
+              </ul>
+            </div>
+
+            <div id="tele" class="service">
+              <div class="service-icon">💻</div>
+              <h3>Telefonoaudiología</h3>
+              <p>
+                Seguimiento remoto, recursos digitales y guía especializada para
+                el trabajo en casa, facilitando la continuidad del tratamiento.
+              </p>
+              <ul class="service-features">
+                <li>Sesiones virtuales interactivas</li>
+                <li>Recursos digitales personalizados</li>
+                <li>Orientación a padres y cuidadores</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección recursos con videos (cumple F1-F6) -->
+      <section id="resources" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Recursos y multimedia</h2>
+            <p>
+              Material didáctico y demostraciones prácticas para apoyar el
+              desarrollo del lenguaje.
+            </p>
+          </div>
+
+          <div class="media-grid">
+            <!-- Video del estudiante (mi_video.mp4) -->
+            <div class="media-card">
+              <div class="media-header">
+                <h3>Introduccion general a la fonoaudiologia</h3>
+                <span class="media-badge">HUSKODEMIA</span>
+              </div>
+
+              <div class="video-responsive">
+                <iframe
+                  src="https://www.youtube.com/embed/wFl_g0ABfVo?rel=0"
+                  title="FONOLOGIA en 4 minutos"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  loading="lazy"
+                ></iframe>
+              </div>
+
+              <p class="media-description">Video referencia.</p>
+            </div>
+
+            <!-- Video secundario -->
+            <div class="media-card">
+              <div class="media-header">
+                <h3>Problemas no solucionados por la fonoaudiología</h3>
+                <span class="media-badge">Neuropediatría y TDAH</span>
+              </div>
+
+              <div class="video-responsive">
+                <iframe
+                  src="https://www.youtube.com/embed/kzp4KrxuXpU?rel=0"
+                  title="Problemas de los niños: fonoaudiología y neuropediatría"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  loading="lazy"
+                ></iframe>
+              </div>
+
+              <p class="media-description">Video referencia.</p>
+            </div>
+          </div>
+
+          <aside class="tips">
+            <div class="tip-header">
+              <h1>💡 Consejos de un Fonoaudiologo</h1>
+            </div>
+            <div class="tip-content">
+              <div class="all-tip">
+                <p>
+                  Practicar sonidos diariamente con ejercicios simples de
+                  articulación (vocales/consonantes) para mejorar claridad al
+                  hablar
+                </p>
+              </div>
+              <div class="all-tip">
+                <p>
+                  Practicar sonidos diariamente con ejercicios simples de
+                  articulación (vocales/consonantes) para mejorar claridad al
+                  hablar
+                </p>
+              </div>
+              <div class="all-tip">
+                <p>
+                  Practicar sonidos diariamente con ejercicios simples de
+                  articulación (vocales/consonantes) para mejorar claridad al
+                  hablar
+                </p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Sección contacto -->d
+      <section id="contact" class="section pale">
+        <div class="container">
+          <div class="section-header">
+            <h2>Contacto y entrega</h2>
+            <p>
+              Nombre del estudiante: <strong>Valerie Carabali</strong> —
+              Proyecto: <strong>Fonoaudiología en niños</strong>.
+            </p>
+          </div>
+
+          <div class="contact-wrapper">
+            <form class="contact-form" onsubmit="return false;">
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input id="name" type="text" placeholder="Su nombre" />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="su.correo@ejemplo.com"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Escriba su mensaje aquí..."
+                ></textarea>
+              </div>
+
+              <button class="btn" type="submit">
+                Enviar mensaje (simulado)
+              </button>
+            </form>
+
+            <div class="contact-info">
+              <h3>Información del proyecto</h3>
+
+              <div class="info-item">
+                <span class="info-icon">🎓</span>
+                <span>Institución: <strong>IBERO</strong></span>
+              </div>
+              <div class="info-item">
+                <span class="info-icon">📅</span>
+                <span
+                  >Fecha de entrega: <strong>28 de noviembre 2025</strong></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <span class="brand-icon">🎯</span>
+            <span>FonoInfantil</span>
+          </div>
+          <p>
+            Proyecto académico — Fonoaudiología infantil • Valerie Carabali •
+            IBERO • 2025
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // JS mejorado para navegación y funcionalidades
+      (function () {
+        // Menú móvil
+        const toggle = document.querySelector(".menu-toggle");
+        const nav = document.getElementById("navLinks");
+        toggle &&
+          toggle.addEventListener("click", () => {
+            nav.classList.toggle("open");
+            toggle.textContent = nav.classList.contains("open") ? "✕" : "☰";
+          });
+
+        // Scroll suave para enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach((a) => {
+          a.addEventListener("click", function (e) {
+            const href = this.getAttribute("href");
+            if (href.length > 1) {
+              e.preventDefault();
+              document
+                .querySelector(href)
+                .scrollIntoView({ behavior: "smooth" });
+              // Cerrar menú en móvil
+              nav.classList.remove("open");
+              toggle.textContent = "☰";
+            }
+          });
+        });
+
+        // Navegación entre servicios
+        const subnavLinks = document.querySelectorAll(".subnav-link");
+        const services = document.querySelectorAll(".service");
+
+        subnavLinks.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+
+            // Actualizar enlaces activos
+            subnavLinks.forEach((l) => l.classList.remove("active"));
+            this.classList.add("active");
+
+            // Mostrar servicio correspondiente
+            services.forEach((service) => {
+              service.classList.remove("active");
+              if (service.id === targetId) {
+                service.classList.add("active");
+              }
+            });
+          });
+        });
+
+        // Efecto de aparición al hacer scroll
+        const observerOptions = {
+          threshold: 0.1,
+          rootMargin: "0px 0px -50px 0px",
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("fade-in");
+            }
+          });
+        }, observerOptions);
+
+        // Observar elementos para animación
+        document
+          .querySelectorAll(".card, .service, .media-card")
+          .forEach((el) => {
+            observer.observe(el);
+          });
+      })();
+    </script>
+  </body>
+</html>
